@@ -1,0 +1,24 @@
+ABOUT ME
+
+I’m Johnson Kouao — Full-Stack MERN Developer.
+I design and build modern, scalable, and high-quality web applications using
+the MERN stack, Tailwind CSS, and clean architecture best practices.
+
+
+
+SECTION DÉTAILLÉE “About Me”
+
+Who I am
+I’m a passionate MERN developer with a strong interest in building modern, scalable and efficient web applications.
+
+What I do
+I create full-stack applications using JavaScript, React, Node.js, MongoDB and Tailwind CSS. My focus is clarity, performance and clean architecture.
+
+My background
+Short summary of your academic journey + how you entered development.
+
+My goal
+To build applications that solve real problems with clean, maintainable code.
+
+My values
+Precision, simplicity, reliability, continuous improvement.
