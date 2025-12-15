@@ -124,7 +124,7 @@
   <main>
 
     <section id="about-me-simple" class="md:hidden">
-      <div class="conteneur-section bg-black py-4 mx-auto flex flex-col items-center ">
+      <div class="conteneur-section bg-black py-4 px-4 mx-auto flex flex-col items-center ">
         <div class="conteneur-grid grid grid-cols-1 max-w-xs  gap-4 items-center justify-items-center px-4 py-8">
           <div class="div-icon">
             <ion-icon name="person-circle-outline" class="text-9xl text-white"></ion-icon>
@@ -133,35 +133,127 @@
             <h2 class="text-2xl text-[#999999] font-semibold tracking-wider">About Me</h2>
             <div class="space-y-2">
               <p class="text-3xl text-white font-semibold tracking-wider">Johnson Kouao</p>
-              <p class="text-lg text-yellow-500 font-semibold tracking-wider">Full Stack MERN Developer</p>
+              <p class="text-md text-yellow-500 font-semibold tracking-wider">Full Stack MERN Developer</p>
             </div>
-            <p class="text-[#999999] text-justify  pb-6 leading-relaxed tracking-widest">I build modern,
-              scalable web
-              applications with React,
-              Next.js,
-              TypeScript,
-              Node.js, MongoDB, PostgreSQL,
-              and Tailwind CSS — with a strong focus on clean architecture, automation, and performance.
+            <p class="text-[#999999] text-justify  pb-6 leading-relaxed tracking-wider">I build modern, scalable, and
+              high-performance web applications using React, Next.js, TypeScript, Node.js, MongoDB, PostgreSQL, and
+              Tailwind CSS, with a strong focus on clean architecture and maintainability.
             </p>
             <a href="#skills"
-              class="bg-yellow-500 px-8 py-2 rounded-md  w-1/4 text-center font-semibold text-black hover:bg-yellow-600 hover:text-white transition duration-500 ease-in-out">More
-              about me</a>
+              class="bg-yellow-500 px-8 py-2 rounded-md  w-full font-semibold text-black hover:bg-yellow-600 hover:text-white transition duration-500 ease-in-out flex justify-center items-center gap-2"><span
+                class="">More
+                about me</span> <ion-icon name="arrow-down-circle-outline"
+                class="text-black text-2xl translate-y-[1.5px]"></ion-icon>
+            </a>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="about-me-detailled" class="hidden">
-      <div class="conteneur-section-detailled bg-black py-2 mx-auto flex flex-col items-center">
-        <div class="div-icon">
-          <ion-icon name="person-circle-outline" class="text-9xl text-white"></ion-icon>
+    <section id="about-me-detailled" class="hidden md:block  bg-black">
+      <div class="conteneur-section-detailled py-8 px-4  mx-auto flex flex-col items-center">
+        <div class="div-detailled grid grid-cols-2 max-w-6xl gap-12 items-center justify-items-center px-8">
+          <div class="div-img w-full h-full"> <img src="images/photo-johnson.png" alt="photo-johnson"
+              class="w-full object-cover">
+          </div>
+          <div class="text-about flex flex-col gap-6 pt-20 justify-center">
+            <div>
+              <h2 class="text-2xl text-[#999999] font-semibold tracking-wider pb-2">About Me</h2>
+            </div>
+            <div class="space-y-2">
+              <p class="text-3xl text-white font-semibold tracking-wider">Johnson Kouao</p>
+              <p class="text-lg text-yellow-500 font-semibold tracking-wider">Full Stack MERN Developer</p>
+            </div>
+            <div class="space-y-2">
+              <h3 class="text-xl text-white font-semibold tracking-wider ">What I do</h3>
+              <p class="text-[#999999] text-justify leading-relaxed tracking-wider">I build modern, scalable, and
+                high-performance web applications using React, Next.js, TypeScript, Node.js, MongoDB, PostgreSQL, and
+                Tailwind CSS, with a strong focus on clean architecture and maintainability.</p>
+            </div>
+            <div class="space-y-2">
+              <h3 class="text-xl text-white font-semibold tracking-wider ">My background</h3>
+              <p class="text-[#999999] text-justify leading-relaxed tracking-wider">I hold a BAC+3 (Bachelor’s
+                equivalent) in Telecommunications and Networks and have solid full-stack experience across front-end and
+                back-end. My background in Technical Support and Telesales gives me a strong understanding of business
+                constraints and client needs, allowing me to align technical solutions with real performance goals.</p>
+            </div>
+            <div class="space-y-2">
+              <h3 class="text-xl text-white font-semibold tracking-wider ">Vision & interests</h3>
+              <p class="text-[#999999] text-justify leading-relaxed tracking-wider">I aim to grow as a Full Stack
+                Developer while delivering solutions with measurable business impact. I also write a techno-thriller
+                novel
+                (The Code of Death), which strengthens my analytical thinking and creativity.</p>
+            </div>
+          </div>
         </div>
-        <h2>About Me</h2>
-      </div>
     </section>
 
-    <section id="skills">
-      <h2>Skills</h2>
+    <section id="skills" class="bg-black">
+      <div class="container-section-skills max-w-7xl px-4 py-8 mx-auto flex flex-col items-center">
+        <!--Mobile version-->
+        <div class="md:hidden text-center space-y-2 tracking-wider font-semibold">
+          <h2 class="text-2xl text-[#999999]">Skills</h2>
+          <p class="text-md text-yellow-500">Full-stack technologies and tools
+          </p>
+        </div>
+        <!--Desktop version-->
+        <div class="hidden md:block text-center space-y-2 py-2 tracking-wider font-semibold">
+          <h2 class="text-2xl text-[#999999]">Technical Skills</h2>
+          <p class="text-lg text-yellow-500">Core technologies and tools I use to build
+            modern full-stack web applications</p>
+        </div>
+        <!--Grid-->
+        <div
+          class="grid grid-cols-[repeat(auto-fit,minmax(80px,1fr))] gap-2 items-center justify-items-center  px-4 py-8">
+          <div>
+            <img src="images/js.png" alt="javascript-logo" class="aspect-square object-cover w-full h-full">
+          </div>
+          <div>
+            <img src="images/react.png" alt="react-logo" class="aspect-square object-cover w-full h-full">
+          </div>
+          <div>
+            <img src="images/nextjs.png" alt="nextjs-logo" class="aspect-square object-cover w-full h-full">
+          </div>
+          <div>
+            <img src="images/typescript.png" alt="typescript-logo" class="aspect-square object-cover w-full h-full">
+          </div>
+          <div>
+            <img src="images/tailwind.png" alt="tailwind-logo" class="aspect-square object-cover w-full h-full">
+          </div>
+          <div>
+            <img src="images/nodejs.png" alt="nodejs-logo" class="aspect-square object-cover w-full h-full">
+          </div>
+          <div>
+            <img src="images/expressjs.png" alt="express-logo" class="aspect-square object-cover w-full h-full">
+          </div>
+          <div>
+            <img src="images/restfull.png" alt="restfull-logo" class="aspect-square object-cover w-full h-full">
+          </div>
+          <div>
+            <img src="images/authen.png" alt="authentication-logo" class="aspect-square object-cover w-full h-full">
+          </div>
+          <div>
+            <img src="images/mongodb.png" alt="mongodb-logo" class="aspect-square object-cover w-full h-full">
+          </div>
+          <div>
+            <img src="images/postgre.png" alt="postgresql-logo" class="aspect-square object-cover w-full h-full">
+          </div>
+          <div>
+            <img src="images/git.png" alt="git-logo" class="aspect-square object-cover w-full h-full">
+          </div>
+          <div>
+            <img src="images/docker.png" alt="docker-logo" class="aspect-square object-cover w-full h-full">
+          </div>
+          <div>
+            <img src="images/vercel.png" alt="vercel-logo" class="aspect-square object-cover w-full h-full">
+          </div>
+          <div>
+            <img src="images/n8n.png" alt="n8n-logo" class="aspect-square object-cover w-full h-full">
+          </div>
+        </div>
+
+      </div>
+
     </section>
 
     <section id="projects">
