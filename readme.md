@@ -20,7 +20,6 @@ Ce portfolio a pour objectifs de :
 - **HTML5**
 - **Tailwind CSS**
 - **JavaScript (Vanilla)**
-- **Docker** (fundamentals)
 - **Vercel** (déploiement)
 
 ### ⚙️ Fonctionnalités
@@ -68,7 +67,6 @@ The goal of this portfolio is to:
 - **HTML5**
 - **Tailwind CSS**
 - **JavaScript (Vanilla)**
-- **Docker** (fundamentals)
 - **Vercel** (deployment)
 
 ### ⚙️ Features
