@@ -5,6 +5,7 @@
 ## 🇫🇷 Français
 
 Ce projet est mon **site portfolio personnel**, conçu pour présenter mon profil, mes compétences et mes projets en tant que **développeur Full Stack MERN**.
+Le lien pour y accéder se trouve sur: https://portfolio2-personal-web.vercel.app/
 
 ### 🎯 Objectif
 
